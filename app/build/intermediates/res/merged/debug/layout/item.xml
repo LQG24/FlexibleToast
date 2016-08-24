@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    >
+
+    <FrameLayout
+        android:layout_width="139dp"
+        android:layout_height="90dp">
+
+        <ImageView
+            android:id="@+id/img_live_recommend"
+            android:layout_width="139dp"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/live_recommend_default"
+            android:layout_gravity="top|center_horizontal" />
+
+        <TextView
+            android:id="@+id/tv_live_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:textSize="10sp"
+            android:textColor="#333333"
+            android:text="toast"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_live_introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textSize="13sp"
+        android:text="toast"
+        android:textColor="#333333" />
+</LinearLayout>
