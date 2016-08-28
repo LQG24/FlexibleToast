@@ -12,10 +12,23 @@
         android:layout_height="wrap_content"
         android:text="子线程显示Toast"
         />
+
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="自定义Toast"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="normal_snackbar"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="custom_snackbar"
         />
 </LinearLayout>

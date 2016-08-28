@@ -16,7 +16,7 @@
             android:layout_width="139dp"
             android:layout_height="90dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/live_recommend_default"
+            android:src="@drawable/lufei"
             android:layout_gravity="top|center_horizontal" />
 
         <TextView
@@ -26,7 +26,7 @@
             android:layout_gravity="bottom|right"
             android:textSize="10sp"
             android:textColor="#333333"
-            android:text="toast"
+            android:text="装完逼快跑"
             />
     </FrameLayout>
 
